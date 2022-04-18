@@ -4,5 +4,13 @@ This project is a card maker that works for [Ygo-Pro](https://projectignis.githu
 
 ## Autores
 
-| [<img src="https://github.com/brunovollin.png" width=115><br><sub>Bruno "Vollin" Almeida</sub>](https://github.com/brunovollin) |  [<img src="https://github.com/leonardosblang.png" width=115><br><sub>Leonardo Sabra Lang</sub>](https://github.com/guilhermeonrails) |
+| [<img src="https://github.com/brunovollin.png" width=115><br><sub>Bruno "Vollin" Almeida</sub>](https://github.com/brunovollin) |  [<img src="https://github.com/leonardosblang.png" width=115><br><sub>Leonardo Sabra Lang</sub>](https://github.com/leonardosblang.png) |
 | :---: | :---: |
+
+<style>
+    img {
+        border-radius: 50%;
+        border: 1px solid #ccc;
+        padding: 5px;
+    }
+</style>
