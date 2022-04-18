@@ -15,6 +15,10 @@ class TomlHandler:
     def append_toml(self, data):
         with open(self.file_name, 'a', encoding="utf-8") as f:
             toml.dump(data, f)
+            
+    def append_toml_string(self, data):
+        with open(self.file_name, 'a', encoding="utf-8") as f:
+            f.write(data)
     
     def delete_toml(self):
         with open(self.file_name, 'w', encoding="utf-8") as f:
