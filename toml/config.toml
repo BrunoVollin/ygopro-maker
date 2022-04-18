@@ -1,0 +1,8 @@
+# Use this to define local configurations for your project.
+# Any configuration defined here will override its global counterpart.
+# Global configurations are located in `C:\Users\leola\AppData\Roaming\YGOFabrica\config.toml`.
+
+
+[expansion.betahuman]
+default = true
+recipe = ['betahuman.toml', 'test.toml']

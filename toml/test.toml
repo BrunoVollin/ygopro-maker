@@ -1,0 +1,83 @@
+test2 = "test3"
+
+[macro]
+_SETN = "FABK-$1$2"
+
+[counter.production]
+code = 303
+
+[set.guardian]
+code = 82
+
+[set.fabrick]
+name = "Fabrick"
+code = 3840
+
+[card.worker]
+id = 102345678
+setnumber = "${SETN|001}"
+ot = "custom"
+set = "fabrick"
+attribute = "earth"
+race = "warrior"
+type = "monster effect pendulum"
+atk = 1200
+def = 600
+level = 3
+pendulum-scale = 8
+
+[card.designer]
+id = 102345679
+setnumber = "${SETN|002}"
+ot = "custom"
+set = "fabrick"
+type = "monster effect pendulum"
+attribute = "dark"
+race = "spellcaster"
+level = 5
+pendulum-scale = 1
+atk = 1200
+def = 2400
+
+[card.gworker]
+id = 102345680
+setnumber = "${SETN|003}"
+ot = "custom"
+set = "fabrick guardian"
+type = "monster effect link"
+attribute = "fire"
+race = "warrior"
+link-rating = 3
+link-arrows = "top bottom-right bottom-left"
+atk = 2400
+
+[card.gdesigner]
+id = 102345681
+setnumber = "${SETN|004}"
+ot = "custom"
+set = "fabrick guardian"
+type = "monster effect xyz"
+attribute = "light"
+race = "spellcaster"
+rank = 3
+atk = 2000
+def = 1000
+
+[card.test]
+id = 102345682
+setnumber = "${SETN|005}"
+ot = "custom"
+set = "fabrick"
+type = "spell continuous"
+
+[card.token]
+id = 102345683
+setnumber = "${SETN|006}"
+ot = "custom"
+set = "fabrick"
+type = "monster normal token"
+attribute = "earth"
+race = "rock"
+level = 1
+atk = 0
+def = 1000

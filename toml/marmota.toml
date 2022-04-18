@@ -1,0 +1,5 @@
+test2 = "test3"
+
+[expansion.betahuman]
+default = true
+recipe = [ "betahuman.toml", "test.toml",]
