@@ -8,7 +8,7 @@ class Card:
         self.level = level
         self.atk = atk
         self.defense = defense
-        self.tm = TomlHandler("toml/test.toml")
+        self.tm = TomlHandler("../toml/test.toml")
         self.card_name: str = self.generate_name(self.name)
 
     def generate_id(self):
@@ -37,7 +37,7 @@ defense = {self.defense}
         return f"{self.name} {self.lvl} {self.atk} {self.defense}"
 
 
-c = Card("test", 1, 1, 1)
+c = Card("test", 2, 12, 122)
 
 c.create_card()
 
