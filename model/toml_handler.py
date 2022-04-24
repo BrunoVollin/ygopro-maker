@@ -23,3 +23,16 @@ class TomlHandler:
     def delete_toml(self):
         with open(self.file_name, 'w', encoding="utf-8") as f:
             f.truncate()
+
+    @staticmethod
+    def dict_to_toml_string(dict):
+        string = "\n"
+        for i in dict:
+            if i == 'title':
+                string += f'[[{dict[i]}]]\n'
+            else:
+                if type(dict[i]) == str:
+                    string += f'{i} = "{dict[i]}"\n'
+                else:
+                    string += f'{i} = {dict[i]}\n'
+        return string
