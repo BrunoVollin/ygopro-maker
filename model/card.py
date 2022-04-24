@@ -42,4 +42,4 @@ class Card:
         self.toml_handler.append_toml_string(data)
 
     def __str__(self):
-        return f"{self.name} {self.lvl} {self.atk} {self.defense}"
+        return f"{self.name} {self.level} {self.atk} {self.defense}"
