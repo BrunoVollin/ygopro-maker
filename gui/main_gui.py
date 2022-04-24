@@ -9,7 +9,7 @@ import sys
 
 class MainWindow(QMainWindow):
     def __init__(self):
-        # call the init function of QWidget
+        # call the init function of QWidge
         super().__init__()
         # set the title of the window
         self.setWindowTitle("PyQt5 GUI")
