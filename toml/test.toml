@@ -81,3 +81,11 @@ race = "rock"
 level = 1
 atk = 0
 def = 1000
+
+[[card.test]]
+id = 486464050
+name = test
+level = 2
+atk = 12
+defense = 122      
+        
